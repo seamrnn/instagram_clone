@@ -1,0 +1,90 @@
+#login{
+    align-items: center;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0;
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 400px;
+}
+
+#login form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 25px 0;
+    width: 65%;
+}
+
+input[type="text"]{
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    outline: none;
+}
+
+#login form input{
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 9px 18px;
+    width: 100%;
+    outline: none;
+}
+
+#login form button{
+    border: none;
+    background-color: #0095f6;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px ;
+    margin-top: 18px;
+    width: 100%;
+
+}
+
+#login p button{
+    border: none;
+    background-color: white;
+    color:#0095f6;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 1;
+}
+
+button:disabled{
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 440px) {
+    #login{
+        width: 90vw;
+    }
+
+    #login form{
+        width: 75%;
+    }
+
+    #login img{
+        height: 60px;
+    }
+
+    #login p{
+        font-size: 0.9em;
+    }
+}

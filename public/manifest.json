@@ -1,0 +1,25 @@
+{
+  "short_name": "BetaInsta",
+  "name": "Beta Instagram",
+  "icons": [
+    {
+      "src": "https://static.cdninstagram.com/rsrc.php/v3/yt/r/30PrGfR3xhB.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://static.cdninstagram.com/rsrc.php/v3/ys/r/aM-g435MtEX.png",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "https://static.cdninstagram.com/rsrc.php/v3/yG/r/De-Dwpd5CHc.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

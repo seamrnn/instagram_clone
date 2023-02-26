@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+section{
+    margin: 40px 18px;
+    min-height: calc(90vh - 149px);
+}
+
+footer{
+    background-color: white;
+    border-top: 1px solid #dfdfdf;
+    font-family: monospace;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer a{
+    color: rgb(22, 198, 198);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(50, 50, 50, 0.5);
+    border-radius: 4px;
+}
